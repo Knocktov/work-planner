@@ -3,6 +3,12 @@ body {
     font-size: 16px;
     line-height: 1;
   }
+
+  .display {
+      font-weight: bold;
+      font-size: 78px;
+      color: darkgreen;
+  }
   
   textarea{
     background: transparent;
@@ -53,12 +59,12 @@ body {
   }
   
   .present {
-    background-color: #ff6961;
+    background-color: lightgreen;
     color: white;
   }
   
   .future {
-    background-color: #77dd77;
+    background-color: lightcoral;
     color: white;
   }
   
@@ -66,7 +72,7 @@ body {
     border-left: 1px solid black;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-color: #06AED5;
+    background-color: darkgreen;
     color: white;
     text-align: center;
     padding-top: 25px;
@@ -76,7 +82,7 @@ body {
   }
   .save-delete i.fa-save:hover {
     font-size: 30px;
-    color: #000000;
+    color: lightseagreen;
     transition: all .3s ease-in-out;
   }
   .save-delete i.fa-trash{
